@@ -34,7 +34,11 @@ Inspired by [this article](https://zaiste.net/posts/shell-commands-rust)
 
 ## `tealdeer`
 
-`sudo zypper install tealdeer`
+`sudo zypper install tealdeer && tldr --update`
+
+On Ubuntu
+
+`sudo apt install pkg-config libssl-dev`
 
 ## `procs`
 
