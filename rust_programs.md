@@ -10,7 +10,7 @@ Inspired by [this article](https://zaiste.net/posts/shell-commands-rust)
 - [procs](#procs)
 - [sd](#sd)
 - [zoxide](#zoxide)
-- [spaceship](#spaceship)
+- [starship](#starship)
 
 ## `bat`
 
@@ -46,13 +46,17 @@ Inspired by [this article](https://zaiste.net/posts/shell-commands-rust)
 
 Add `eval "$(zoxide init zsh)"` to `~/.profile`
 
-## `spaceship`
+## `starship`
 
-Depends on powerline fonts (nerd fonts)
+Requires openssl development packages
 
-`sudo zypper install powerline-fonts`
+`sudo zypper install libopenssl-devel`
 
-Install with npm, does not exist in zypper repos or cargo
+Install with cargo
 
-`npm install --global spaceship-prompt`
+`cargo install starship`
+
+Add line to `.profile`
+
+`eval "$(starship init zsh)"
 
