@@ -56,6 +56,11 @@ Add `eval "$(zoxide init zsh)"` to `~/.profile`
 
 ## `starship`
 
+Requires a (nerd font](https://www.nerdfonts.com/)
+
+- Unzip fonts
+- Move fonts to `/usr/local/share/fonts`
+
 Requires openssl development packages
 
 `sudo zypper install libopenssl-devel`
