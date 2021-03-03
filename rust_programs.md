@@ -24,6 +24,10 @@ Inspired by [this article](https://zaiste.net/posts/shell-commands-rust)
 
 `sudo zypper install fd`
 
+`sudo apt install fd-find && sudo ln -s $(which fdfind) /usr/local/bin/fd`
+
+`cargo install fd-find`
+
 ## `ripgrep`
 
 `sudo zypper install ripgrep`
