@@ -60,6 +60,7 @@ Requires a (nerd font](https://www.nerdfonts.com/)
 
 - Unzip fonts
 - Move fonts to `/usr/local/share/fonts`
+- Update font cache with `fc-cache -fv`
 
 Requires openssl development packages
 
