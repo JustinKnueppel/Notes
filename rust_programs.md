@@ -12,6 +12,7 @@ Inspired by [this article](https://zaiste.net/posts/shell-commands-rust)
 - [zoxide](#zoxide)
 - [starship](#starship)
 - [alacritty](#alacritty)
+- [amp](#amp)
 
 ## `bat`
 
@@ -80,4 +81,10 @@ For WSL, you must install the font in Windows and then add the line `"fontFace":
 ## `alacritty`
 
 `sudo zypper install alacritty`
+
+## `amp`
+
+`sudo zypper install libxcb-devel`
+
+`cargo install amp`
 
