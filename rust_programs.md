@@ -11,6 +11,7 @@ Inspired by [this article](https://zaiste.net/posts/shell-commands-rust)
 - [sd](#sd)
 - [zoxide](#zoxide)
 - [starship](#starship)
+- [alacritty](#alacritty)
 
 ## `bat`
 
@@ -75,4 +76,8 @@ Add line to `.profile`
 `eval "$(starship init zsh)"
 
 For WSL, you must install the font in Windows and then add the line `"fontFace": "FiraCode Nerd Font"` to `settings.json` of windows terminal
+
+## `alacritty`
+
+`sudo zypper install alacritty`
 
