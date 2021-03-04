@@ -78,13 +78,19 @@ Add line to `.profile`
 
 For WSL, you must install the font in Windows and then add the line `"fontFace": "FiraCode Nerd Font"` to `settings.json` of windows terminal
 
+config file: `~/.config/starship.toml`
+
 ## `alacritty`
 
 `sudo zypper install alacritty`
+
+config file: `~/.config/alacritty/alacritty.yml`
 
 ## `amp`
 
 `sudo zypper install libxcb-devel`
 
 `cargo install amp`
+
+config file: `~/.config/amp/config.yml`
 
