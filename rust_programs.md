@@ -90,6 +90,8 @@ config file: `~/.config/alacritty/alacritty.yml`
 
 `sudo zypper install libxcb-devel`
 
+`sudo apt install libxcb-shape0-dev libxcb-xfixes0-dev`
+
 `cargo install amp`
 
 config file: `~/.config/amp/config.yml`
