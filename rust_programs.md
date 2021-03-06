@@ -84,6 +84,10 @@ config file: `~/.config/starship.toml`
 
 ## `alacritty`
 
+`sudo apt install cmake libfontconfig1-dev libxcb-shape0-dev libxcb-xfixes0-dev`
+
+`cargo install alacritty`
+
 `sudo zypper install alacritty`
 
 config file: `~/.config/alacritty/alacritty.yml`
