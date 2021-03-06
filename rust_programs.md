@@ -80,6 +80,10 @@ Add line to `.profile`
 
 For WSL, you must install the font in Windows and then add the line `"fontFace": "FiraCode Nerd Font"` to `settings.json` of windows terminal
 
+### pi4
+
+`sudo apt install build-essential libssl-dev pkg-config`
+
 config file: `~/.config/starship.toml`
 
 ## `alacritty`
